@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  background: linear-gradient(#040112, #961fb5);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  background-color: #961fb5;
+}
+
+#navbar a {
+  float: right;
+  margin-right: 20px;
+  padding: 15px 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: .5s ease;
+}
+#navbar a:hover{
+  background-color: #040112;
+  opacity: .9;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#avatar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+}
+
+img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+#i-am {
+  width: 250px;
+  height: 250px;
+}
+
+/*project section*/
+#projects {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} 
+
+h2{
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+  
+.my-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none; 
+  border-radius: 10px;
+  margin: 60px 20px 20px 20px;
+  padding: 20px 100px;
+  width: 280px;
+  background: linear-gradient(90deg,rgba(181, 63, 232, .8), rgba(133, 50, 201, .9)),
+url(https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fGNvZGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+
+.project-tile{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#contact {
+  margin: 100px auto;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+#profile-link {
+  color: white;
+  text-decoration: none;
+}
+
+/*flexible layout settings*/
+@media screen and (max-width: 600px){
+  #projects {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
