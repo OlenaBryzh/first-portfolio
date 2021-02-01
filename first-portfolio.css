@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -11,7 +11,7 @@ body {
   color: white;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -31,7 +31,8 @@ body {
   font-size: 18px;
   transition: .5s ease;
 }
-#navbar a:hover{
+
+#navbar a:hover {
   background-color: #040112;
   opacity: .9;
 }
@@ -50,6 +51,7 @@ body {
 h1 {
   font-size: 30px;
 }
+
 p {
   text-align: center;
   font-size: 25px;
@@ -74,7 +76,7 @@ img {
 }
 
 /*project section*/
-#projects{
+#projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +88,7 @@ img {
   padding: 0;
 }
 
-h2{
+h2 {
   align-items: center;
   text-align: center;
   margin: 0 0 30px 0;
@@ -104,14 +106,13 @@ url(https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixid=MXwxMjA3fD
   transition: transform 0.5s ease;
 }
 
-.my-works:hover{
+.my-works:hover {
  transform: translateY(10px);
  background: linear-gradient(90deg,rgba(133, 50, 201, .9), rgba(181, 63, 232, .8)),
 url(https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fGNvZGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
-
 }
 
-.project-tile{
+.project-tile {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -119,7 +120,7 @@ url(https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixid=MXwxMjA3fD
 }
 
 /*contact section*/
-#contact{
+#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
