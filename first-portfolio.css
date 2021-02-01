@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background: linear-gradient(#040112, #961fb5);
@@ -9,12 +13,6 @@ body {
 
 *{
   box-sizing: border-box;
-}
-
-.container {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0;
 }
 
 #navbar {
@@ -86,7 +84,6 @@ img {
   height: 120vh;
   margin: 0;
   padding: 0;
-
 }
 
 h2{
@@ -140,7 +137,12 @@ url(https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixid=MXwxMjA3fD
   font-size: 20px;
 }
 
-/*flexible layout settings*/
+#icon {
+  padding: 10px 7px;
+}
+
+/*
+flexible layout settings*/
 @media screen and (max-width: 600px){
   #projects {
     flex-direction: column;
